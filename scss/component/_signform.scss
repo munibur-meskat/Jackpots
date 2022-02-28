@@ -1,0 +1,233 @@
+#signUP{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #0b001b;
+}
+
+.related_games{
+	-webkit-clip-path: polygon(0 9%, 100% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(0px 12%, 100% 4px, 100% 100%, 0% 100%);
+	position: relative;
+	top: -185px;
+}
+// .games_top{
+//     position: relative;
+// }
+.upPart_1{
+    // position: absolute;
+    padding: 40px;
+    background: #661ad2;
+    border: 1px solid #7937db;
+    border-right: 3px solid #7937db;
+    bottom: 100px;
+    transition: all linear .4s;
+}
+.upPart_2{
+    // position: absolute;
+    padding: 40px;
+    background: #661ad2;
+    border: 1px solid #7937db;
+    border-right: 3px solid #7937db;
+    bottom: 100px;
+    left: 409px; 
+    transition: all linear .4s;
+}
+.upPart_3{
+    // position: absolute;
+    padding: 40px;
+    background: #661ad2;
+    border: 1px solid #7937db;
+    border-right: 3px solid #7937db;
+    bottom: 100px;
+    right: -29px;
+    transition: all linear .4s;
+    
+}
+
+.upPart_1 h3{
+    @include font('Anton', 50px, 400, #fcb100);
+    filter: drop-shadow(0 0 0.45rem #ce1aac);
+    background: -webkit-linear-gradient(#fcb100,  #e07e1e);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   padding-top: 10px;
+   padding-bottom: 20px;
+}
+.upPart_1 h4{
+    @include font('Anton', 33px, 400, #fff);
+    padding-bottom: 15px;
+}
+.upPart_1 p{
+    @include font('Nunito', 16px, 400, #fff);
+}
+
+.upPart_2 h3{
+    @include font('Anton', 50px, 400, #fcb100);
+    filter: drop-shadow(0 0 0.45rem #ce1aac);
+    background: -webkit-linear-gradient(#fcb100,  #e07e1e);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   padding-top: 10px;
+   padding-bottom: 20px;
+}
+.upPart_2 h4{
+    @include font('Anton', 33px, 400, #fff);
+    padding-bottom: 15px;
+}
+.upPart_2 p{
+    @include font('Nunito', 16px, 400, #fff);
+}
+
+.upPart_3 h3{
+    @include font('Anton', 50px, 400, #fcb100);
+    filter: drop-shadow(0 0 0.45rem #ce1aac);
+    background: -webkit-linear-gradient(#fcb100,  #e07e1e);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   padding-top: 10px;
+   padding-bottom: 20px;
+}
+.upPart_3 h4{
+    @include font('Anton', 33px, 400, #fff);
+    padding-bottom: 15px;
+}
+.upPart_3 p{
+    @include font('Nunito', 16px, 400, #fff);
+}
+.upPart_1:hover{
+    filter: drop-shadow(0 0 0.75rem #4c12a2);
+    border: 1px solid #351664;
+    box-shadow: 5px 5px 15px 5px #2a0661;
+}
+
+.upPart_2:hover{
+    filter: drop-shadow(0 0 0.75rem #4c12a2);
+    border: 1px solid #351664; 
+    box-shadow: 5px 5px 15px 5px #2a0661;
+}
+.upPart_3:hover{
+    filter: drop-shadow(0 0 0.75rem #4c12a2);
+    border: 1px solid #351664;
+    box-shadow: 5px 5px 15px 5px #2a0661;
+}
+// ==========
+.ddd{
+    display: flex;
+}
+.sign_img img {
+  	width: 905px;
+    height: 100%;
+  	margin-left: -185px;
+}
+.sss{
+    padding-top: 95px;
+}
+.form{
+    padding-bottom: 55px;
+}
+.form h1{
+      margin-bottom: 30px;
+      @include font('Anton', 28px, 400, #fff);
+}
+.form p{
+    @include font('Nunito', 16px, 400, #fff);
+    position: relative;
+}
+.form p::after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 60px;
+    background: #fff;
+    top: 214%;
+    left: 30px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .form-control{
+    background: transparent;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 1px solid #fff;
+    padding: 15px 0 15px;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+  }
+  .input-group{
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  .input-group-text{
+    background: transparent;
+    color: #fff;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 1px solid #fff;
+    font-size: 18px;
+  }
+  button {
+    margin-top: 20px;
+    background-color: #c1119f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border-bottom: 7px solid #94127ac7;
+    width: 100%;
+    opacity: 0.9;
+  }
+  button a{
+      @include font('Anton', 20px, 400, #fff);
+      letter-spacing: 1px;
+  }
+  button:hover{
+      background-color: #6f30ce;
+      border-bottom: 7px solid rgba(43, 19, 119, 0.774);
+      transition: all linear .7s;
+  }
+  button a:hover{
+     color: #fff;
+     transition: all linear .7s;
+  }
+  .bigg{
+    @include font('Nunito', 16px, 400, #fff);
+    padding-top: 40px;
+  }
+  .bigg a{
+    @include font('Nunito', 16px, 700, #b17dff);
+    padding-left: 3px;
+  }
+  .bigg a:hover{
+    color: #ff27d0;
+    transition: all linear .5s;
+  }
+  .fbgoole{
+    @include font('Nunito', 16px, 400, #fff);
+    padding-top: 40px;
+    display: flex;
+  }
+  .social .btnn{
+    margin: -10px 0;
+  }
+  .btnn a{
+    padding: 10px 18px;
+    background: linear-gradient(#9e4efc, #570dc8);
+    text-align: center;
+    border-bottom: 5px solid #3a0090;
+    transition: all linear .4s;
+    margin-right: 10px;
+  }
+  .btnn a i{
+    color: #fff;
+    font-size: 16px;
+    transition: all linear .4s;
+  }
+.btnn a:hover{
+  background: linear-gradient(#ff39dc, #a60084);
+  border-bottom: 5px solid #661355;
+}
+.btnn a i:hover{
+  color: #fff;
+}

@@ -1,0 +1,6 @@
+@mixin gap($pt, $pl, $pr, $pb){
+    padding-top: $pt;
+    padding-left: $pl;
+    padding-right: $pr;
+    padding-bottom: $pb;
+}

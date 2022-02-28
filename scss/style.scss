@@ -1,0 +1,19 @@
+/*mixin*/ 
+@import "./mixin/divsize";
+@import "./mixin/font";
+@import "./mixin/gapping";
+
+/*variable*/ 
+@import "./variable/background";
+
+/*page*/
+@import "./page/home";
+@import "./page/about";
+@import "./page/games";
+@import "./page/pricingPlan";
+@import "./page/signUP";
+@import "./page/logIN";
+@import "./page/page";
+
+/*common*/
+@import "./common/common";

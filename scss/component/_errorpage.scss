@@ -1,0 +1,41 @@
+#errorP{
+    padding-top: 240px;
+    padding-bottom: 95px;
+    // background-color: #150035;
+    background-color: #2c0a5f;
+   
+}
+.errorimg{
+    position: relative;
+}
+.error_text{
+    position: absolute;
+    left: 42%;
+    top: 45%;
+}
+.error_text h3 {
+    @include font('Anton', 115px, 400, #fcb200);
+	text-transform: uppercase;
+	line-height: 120px;
+    letter-spacing: 3px;
+}
+.error_text span{
+    @include font('Anton', 120px, 400, #e68822);
+    letter-spacing: 3px;
+}
+.error_btn{
+    padding-top: 60px;
+}
+.error_btn a{
+    @include font('Anton', 23px, 400, #fff);
+    @include gap(18px,30px,30px,16px);
+    background: #d51eb2;
+    border-bottom: 7px solid #661355;
+    border-radius: 7px;
+}
+.error_btn a:hover{
+    background: #8e3fef;
+    border-bottom: 7px solid #350b75;
+    filter: drop-shadow(0 0 0.75rem #8e3fef);
+    transition: all linear .5s;
+}

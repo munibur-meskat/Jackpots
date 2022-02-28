@@ -1,0 +1,125 @@
+#games{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #150035;
+}
+.row {
+	--bs-gutter-x: 1.5rem;
+	--bs-gutter-y: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: calc(-1 * var(--bs-gutter-y));
+	margin-right: calc(-.5 * var(--bs-gutter-x));
+	margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+// .ppp{
+//     position: relative;
+// }
+// .r_game{
+//     top: 75px;
+//     position: absolute;
+// }
+.game_part_up_text h3{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    filter: drop-shadow(0 0 0.45rem #ce1aac);
+    background: -webkit-linear-gradient(#fcb100,  #e07e1e);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.game_item{
+    position: relative;
+}
+.game_item .game_overly{
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(17, 17, 17, 0.623);
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .4s;
+}
+.game_overly h3{
+    position: absolute;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    left: 120px;
+    top:200px;
+    transition: all linear .4s;
+    opacity: 0;
+    visibility: hidden;
+}
+.game_overly .btn a{
+    position: absolute;
+    width: 120px;
+    line-height: 50px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: #8e3fef;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    border-bottom: 5px solid #3a0090;
+    transition: all linear .4s;
+    left: 120px;
+    top:250px;
+    opacity: 0;
+    visibility: hidden;
+}
+.game_item:hover .game_overly{
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+
+.game_item:hover .game_overly h3{
+    color: #ffffff;
+    opacity: 1;
+    visibility: visible;
+}
+
+.game_item:hover .game_overly .btn a{
+    background: #691dd5;
+    border-bottom: 5px solid #3a0090;
+    filter: drop-shadow(0 0 0.75rem #691dd5);
+    opacity: 1;
+    visibility: visible;
+}
+// ==============
+
+/* Game Slick Start */
+.slick-dots {
+    position: absolute;
+    bottom: -60px;
+    display: block;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.slick-dots li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.slick-dots li button{
+    font-size: 0;
+    height: 15px;
+    width: 15px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid #999999;
+}
+.slick-dots .slick-active button{
+    // background: #f526d9e8;
+}
+
+/* Game Slick End*/

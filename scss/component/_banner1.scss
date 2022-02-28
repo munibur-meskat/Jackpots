@@ -1,0 +1,12 @@
+#banner1{
+    padding-top: 225px;
+    padding-bottom: 200px;
+    background: #150035;
+}
+.banner1_text h3{
+    @include font('Anton', 48px, 400, #ffc109);
+}
+.banner1_text h4{
+    @include font('Anton', 24px, 400, #fff);
+    padding-top: 20px;
+}

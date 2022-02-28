@@ -1,0 +1,74 @@
+.bg{
+    background: #161616e7;
+    padding: 10px 0;
+    animation: menu 1s;
+}
+
+@keyframes menu{
+    from{top: -400px;}
+    to{top: 0px;}
+}
+
+// .mmm{
+//     display: flex;
+// }
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    transition: .4s;
+    background: #150035bb;
+    }
+.collapse .btn{
+    // display: flex;
+    padding-top: 25px;
+    
+    a{
+        width: 100px;
+        display: inline-block;
+        background: #b90d97;
+        border-radius: 7px;
+        @include font('Anton', 20px, 400, #f6f2f2);
+        line-height: 50px;
+        margin: 0 auto;
+        text-align: center;
+        margin: 0px 10px;
+        transition: all linear .5s;
+        border-bottom: 5px solid #661355;
+        &:hover{
+            background: #8e3fef;
+            transition: all linear .5s;
+            filter: drop-shadow(0 0 0.75rem #a864fa);
+            border-bottom: 5px solid #4f1990;
+        }
+    }
+}
+
+.navbar-light{
+    .navbar-nav{
+        padding-top: 25px;
+        .nav-link.active{
+            color: #ff39dc !important;
+        }
+    }
+}
+.navbar-brand img{
+    margin-top: -20px;
+    // margin-bottom: 10px;
+}
+.navbar-nav{
+    .nav-item{
+        @include gap(0, 27px, 27px, 0);
+        .nav-link{
+            @include font('Nunito' sans-serif, 20px, 600, #944bff);
+            transition: all linear .4s;
+            text-align: center;
+            &:hover{
+                color: #ff39dc;
+                transition: all linear .4s;   
+            }
+        }
+    }
+}

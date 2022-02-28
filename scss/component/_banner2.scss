@@ -1,0 +1,156 @@
+#banner2{
+    // padding-top: 150px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    background: #0b001b;
+}
+.card_top {
+	-webkit-clip-path: polygon(0 9%, 100% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(0px 12%, 100% 4px, 100% 100%, 0% 100%);
+	position: relative;
+	top: -205px;
+}
+.ppp{
+    padding-top: 0px;
+}
+// .games_top{
+//     position: relative;
+// }
+.upPart_1{
+    // position: absolute;
+    padding: 40px;
+    background: #661ad2;
+    border-bottom: 5px solid #2e036f;
+    border-right: 3px solid #7937db;
+    bottom: 100px;
+    transition: all linear .4s;
+}
+.upPart_2{
+    // position: absolute;
+    padding: 40px;
+    background: #661ad2;
+    border-bottom: 5px solid #2e036f;
+    border-right: 3px solid #7937db;
+    bottom: 100px;
+    left: 409px; 
+    transition: all linear .4s;
+}
+.upPart_3{
+    // position: absolute;
+    padding: 40px;
+    background: #661ad2;
+    border-bottom: 5px solid #2e036f;
+    border-right: 3px solid #7937db;
+    bottom: 100px;
+    right: -29px;
+    transition: all linear .4s;
+    
+}
+
+.upPart_1 h3{
+    @include font('Anton', 50px, 400, #fcb100);
+    filter: drop-shadow(0 0 0.45rem #ce1aac);
+    background: -webkit-linear-gradient(#fcb100,  #e07e1e);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   padding-top: 10px;
+   padding-bottom: 20px;
+}
+.upPart_1 h4{
+    @include font('Anton', 33px, 400, #fff);
+    padding-bottom: 15px;
+}
+.upPart_1 p{
+    @include font('Nunito', 16px, 400, #fff);
+}
+
+.upPart_2 h3{
+    @include font('Anton', 50px, 400, #fcb100);
+    filter: drop-shadow(0 0 0.45rem #ce1aac);
+    background: -webkit-linear-gradient(#fcb100,  #e07e1e);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   padding-top: 10px;
+   padding-bottom: 20px;
+}
+.upPart_2 h4{
+    @include font('Anton', 33px, 400, #fff);
+    padding-bottom: 15px;
+}
+.upPart_2 p{
+    @include font('Nunito', 16px, 400, #fff);
+}
+
+.upPart_3 h3{
+    @include font('Anton', 50px, 400, #fcb100);
+    filter: drop-shadow(0 0 0.45rem #ce1aac);
+    background: -webkit-linear-gradient(#fcb100,  #e07e1e);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   padding-top: 10px;
+   padding-bottom: 20px;
+}
+.upPart_3 h4{
+    @include font('Anton', 33px, 400, #fff);
+    padding-bottom: 15px;
+}
+.upPart_3 p{
+    @include font('Nunito', 16px, 400, #fff);
+}
+.upPart_1:hover{
+    filter: drop-shadow(0 0 0.75rem #4c12a2);
+    border: 1px solid #351664;
+    box-shadow: 5px 5px 15px 5px #2a0661;
+}
+
+.upPart_2:hover{
+    filter: drop-shadow(0 0 0.75rem #4c12a2);
+    border: 1px solid #351664; 
+    box-shadow: 5px 5px 15px 5px #2a0661;
+}
+.upPart_3:hover{
+    filter: drop-shadow(0 0 0.75rem #4c12a2);
+    border: 1px solid #351664;
+    box-shadow: 5px 5px 15px 5px #2a0661;
+}
+// ==========
+// ==============================
+.unlock_part_2 p{
+    padding-top: 60px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Nunito', sans-serif;
+}
+.unlock_part_2 .spppan{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.unlock_part_2 .bttn a{
+    width: 120px;
+    line-height: 50px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: #8e3fef;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 10px;
+    border-bottom: 5px solid #3a0090;
+    transition: all linear .4s;
+}
+
+.unlock_part_2 .bttn a:hover{
+    background: #ce1aac;
+    border-bottom: 5px solid #661355;
+    filter: drop-shadow(0 0 0.75rem #ce1aac);
+}

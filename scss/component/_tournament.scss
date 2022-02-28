@@ -1,0 +1,105 @@
+#tournament{
+    padding: 100px 0px;
+    background: #150035;
+}
+.tournament_up_text{
+    border-bottom: 3px solid #000000;
+}
+.tournament_up_text h3{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    filter: drop-shadow(0 0 0.45rem #ce1aac);
+    background: -webkit-linear-gradient(#fcb100,  #e07e1e);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   padding-bottom: 30px;
+}
+
+.accordion{
+    padding-top: 50px;
+}
+.accordion-item{
+	background-color: #151515;
+	border: none;
+    color: #fff;
+}
+.accordion-button{
+	color: #fff;
+	background-color:#4b3966ad;	
+	background-color:none;	
+}
+.accordion-body{
+	background: #150035;
+}
+.accordion-button:focus {
+	border-color: none;
+	box-shadow: none;
+}
+
+.accordion-button:not(.collapsed){
+	color: #fff;
+	background-color: #4c33708f;
+	box-shadow: none;
+}
+.accordion-body:not(.collapsed){
+    border: 1px solid #3b3a37;
+}
+
+.tournament_text h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.tournament_hours{
+    max-width: 100px;
+    background: transparent;
+    border: 1px solid #fdb025;
+    margin-right: 20px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.tournament_hours h3{
+    line-height: 26px;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: #b47c27;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+.match_text h3{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 20px;
+}
+.tbbb{
+  border-bottom: 2px solid #0b001b;
+}
+.country img{
+    margin-left: 20px;
+    margin-top: -5px;
+}
+.corrency h3{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 20px;
+    text-align: right;
+}
+
+.match_part_start .courrency h3{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 15px;
+} 
